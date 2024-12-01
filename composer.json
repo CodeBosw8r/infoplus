@@ -1,0 +1,19 @@
+{
+    "name": "bigtree/infoplus",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Bigtree\\InfoPlus\\": "src/"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Erik Hoogeboom",
+            "email": "bigtree@29a.nl"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "^11.4"
+    }
+}

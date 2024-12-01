@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<phpunit bootstrap="tests/bootstrap.php">
+  <testsuites>
+  <!--
+    <testsuite name="integration">
+      <directory>tests/integration</directory>
+    </testsuite>
+    -->
+    <testsuite name="unit">
+      <directory>tests/unit</directory>
+    </testsuite>
+  </testsuites>
+  <php>
+    <ini name="date.timezone" value="Europe/Amsterdam"/>
+  </php>
+</phpunit>
