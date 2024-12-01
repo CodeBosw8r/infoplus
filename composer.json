@@ -1,6 +1,7 @@
 {
     "name": "bigtree/infoplus",
     "type": "library",
+    "version": "1.0.0",
     "autoload": {
         "psr-4": {
             "Bigtree\\InfoPlus\\": "src/"
@@ -13,7 +14,8 @@
             "email": "bigtree@29a.nl"
         }
     ],
-    "require": {
+    "require-dev": {
+        "php": "^8",
         "phpunit/phpunit": "^11.4"
     }
 }
