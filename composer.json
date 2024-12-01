@@ -17,5 +17,8 @@
     "require-dev": {
         "php": "^8",
         "phpunit/phpunit": "^11.4"
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit --bootstrap tests/bootstrap.php --testdox tests"
     }
 }
