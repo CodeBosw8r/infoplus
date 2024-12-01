@@ -1,7 +1,7 @@
 {
     "name": "bigtree/infoplus",
+    "description": "A library to parse InfoPlus messages about the Dutch trains",
     "type": "library",
-    "version": "1.0.0",
     "autoload": {
         "psr-4": {
             "Bigtree\\InfoPlus\\": "src/"
