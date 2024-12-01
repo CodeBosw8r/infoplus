@@ -20,7 +20,7 @@ class DasNodeParserTest extends TestCase
         return $dom;
     }
 
-    public function testParseReisInformatieProductDASElement20241128Rit9053MP()
+    public function testParseReisInformatieProductDasElement20241128Rit9053Mp()
     {
         $doc = $this->loadXml('das-2024-11-28-9053-MP.xml');
         $this->assertNotNull($doc);
@@ -236,7 +236,7 @@ class DasNodeParserTest extends TestCase
         $this->assertEquals(null, $wijziging->getTvvOmschrijving());
     }
 
-    public function testParseReisInformatieProductDASElement20241201Rit18939EGHM()
+    public function testParseReisInformatieProductDasElement20241201Rit18939Eghm()
     {
         $doc = $this->loadXml('dvs-2024-12-01-18939-EGHM.xml');
         $this->assertNotNull($doc);
